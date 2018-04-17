@@ -2,7 +2,7 @@ package interfacetest;
 
 import java.util.Scanner;
 
-public class Tiger
+public class NumberOfOccurance
 {
 	int count=0;
 	public int  add(int a ,int b)
@@ -34,7 +34,7 @@ public class Tiger
 		Scanner scanner= new Scanner(System.in);
 		System.out.println("Enter the string to count number of i");
 		String name = scanner.nextLine();
-		Tiger t= new Tiger();
+		NumberOfOccurance t= new NumberOfOccurance();
 		System.out.println("no of i occurance : "+t.noOfOccurance(name));
 	}
 
